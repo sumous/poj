@@ -56,7 +56,7 @@ int main()
         for(int i=1;i<=q;i++)
         {
             
-           	cin>>ch>>x>>y;//cout<<ch<<endl;
+           	cin>>ch>>x>>y;cout<<ch<<endl;
             if(x>y){t=x;x=y;y=t;}
             if(ch=='C') {
                 scanf("%d",&color);
